@@ -1,8 +1,8 @@
 name: flutter_measure_formatter
 description: Plugin to format and convert measure units
-version: 0.0.1
+version: 0.0.2
 author: Tomas Radvansky <tomas@rdev.software>
-homepage: https://www.rdev.software
+homepage: https://github.com/rdev-software/flutter_measure_formatter
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
