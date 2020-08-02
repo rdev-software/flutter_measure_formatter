@@ -5,7 +5,6 @@ homepage: https://github.com/rdev-software/flutter_measure_formatter/flutter_mea
 # the version to 2.0.0.
 # See more details: https://github.com/flutter/flutter/wiki/Package-migration-to-1.0.0
 version: 0.0.3
-author: Tomas Radvansky <tomas@rdev.software>
 
 flutter:
   plugin:
@@ -15,14 +14,17 @@ flutter:
         fileName: flutter_measure_formatter_web.dart
 
 dependencies:
-  flutter_measure_formatter_platform_interface:
-    path: ../flutter_measure_formatter_platform_interface
+  flutter_measure_formatter_platform_interface: ^0.0.3
   platform_detect: ^1.4.0
   flutter:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
   meta: ^1.2.2
+
+#dependency_overrides:
+#  flutter_measure_formatter_platform_interface:
+#    path: ../flutter_measure_formatter_platform_interface
 
 dev_dependencies:
   flutter_test:

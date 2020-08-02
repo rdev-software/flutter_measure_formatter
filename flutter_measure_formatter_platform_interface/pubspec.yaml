@@ -4,7 +4,6 @@ homepage: https://github.com/rdev-software/flutter_measure_formatter/flutter_mea
 # NOTE: We strongly prefer non-breaking changes, even at the expense of a
 # less-clean API. See https://flutter.dev/go/platform-interface-breaking-changes
 version: 0.0.3
-author: Tomas Radvansky <tomas@rdev.software>
 
 dependencies:
   flutter:
