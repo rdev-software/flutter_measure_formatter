@@ -27,18 +27,61 @@ class FlutterMeasureFormatterWeb extends MeasureFormatterPlatform {
     MeasureFormatterPlatform.instance = FlutterMeasureFormatterWeb();
   }
 
+  String getUnitString(FlutterMeasureFormatterUnit unit){
+    switch (unit){
+
+      case FlutterMeasureFormatterUnit.ASTRONOMICAL_UNIT:
+       return "au";
+      case FlutterMeasureFormatterUnit.CENTIMETER:
+        return "cm";
+      case FlutterMeasureFormatterUnit.DECIMETER:
+        return "dm";
+      case FlutterMeasureFormatterUnit.FATHOM:
+        return "fanthom";
+      case FlutterMeasureFormatterUnit.FOOT:
+        return "ft";
+      case FlutterMeasureFormatterUnit.FURLONG:
+        return "furlong";
+      case FlutterMeasureFormatterUnit.INCH:
+        return "in";
+      case FlutterMeasureFormatterUnit.LIGHT_YEAR:
+       return "ly";
+      case FlutterMeasureFormatterUnit.KILOMETER:
+        return "km";
+      case FlutterMeasureFormatterUnit.METER:
+        return "m";
+      case FlutterMeasureFormatterUnit.MICROMETER:
+       return "μm";
+      case FlutterMeasureFormatterUnit.MILE:
+       return "mi";
+      case FlutterMeasureFormatterUnit.MILE_SCANDINAVIAN:
+        return "mil";
+      case FlutterMeasureFormatterUnit.MILLIMETER:
+        return "mm";
+      case FlutterMeasureFormatterUnit.NANOMETER:
+        return "nm";
+      case FlutterMeasureFormatterUnit.NAUTICAL_MILE:
+        return "nmi";
+      case FlutterMeasureFormatterUnit.PARSEC:
+        return "pc";
+      case FlutterMeasureFormatterUnit.PICOMETER:
+        return "pm";
+      case FlutterMeasureFormatterUnit.YARD:
+        return "yd";
+    }
+    return "";
+  }
   @override
   Future<String> convertLength(
       FlutterMeasureFormatterUnit unit, double value) async {
-    var qty = Quantities("5.17 ft");
-    return qty.format("cm");
-   // return Quantities.getKinds().join(",");
+    var qty = Quantities.scalar(value, getUnitString(unit));
+    return qty.format();
   }
 
   @override
   Future<String> formatLength(
       FlutterMeasureFormatterUnit unit, double value) async {
-    var qty = Quantities("1m");
-    return qty.kind();
+    var qty = Quantities.scalar(value, getUnitString(unit));
+    return qty.format();
   }
 }

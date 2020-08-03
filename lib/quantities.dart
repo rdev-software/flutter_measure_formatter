@@ -10,14 +10,14 @@ class Quantities {
   Quantities(toParse) : _quantities = QuantitiesJs(toParse);
 
   Quantities.scalar(double value, String unit) {
-    _quantities = QuantitiesJs(124, 'cm');
+    _quantities = QuantitiesJs(value, unit);
   }
 
   String kind() => _quantities.kind();
 
   String toString() => _quantities.toString();
 
-  String format(String unit) {
+  String format({String unit}) {
     return _quantities.format(unit);
   }
 
@@ -69,5 +69,5 @@ class QuantitiesJs {
   ///Array of names of every well-known kind of units
   external static List<String> getKinds();
 
-  external String format(String unit);
+  external String format([String unit]);
 }

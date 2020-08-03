@@ -23,18 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24510083-afdc-413b-9eb4-568277ce5abf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/quantities.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/flutter_measure_formatter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_measure_formatter.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/flutter_measure_formatter_platform_interface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_measure_formatter_platform_interface.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/flutter_measure_formatter_web.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_measure_formatter_web.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/method_channel_flutter_measure_formatter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/method_channel_flutter_measure_formatter.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/quantities.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/quantities.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +121,7 @@
       <workItem from="1596349186780" duration="802000" />
       <workItem from="1596350008417" duration="12741000" />
       <workItem from="1596404508852" duration="2000" />
+      <workItem from="1596442785292" duration="1086000" />
     </task>
     <servers />
   </component>
