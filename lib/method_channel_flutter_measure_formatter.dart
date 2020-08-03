@@ -1,12 +1,9 @@
 import 'dart:async';
-
 import 'package:flutter/services.dart';
-import 'package:meta/meta.dart' show required;
-
 import 'flutter_measure_formatter_platform_interface.dart';
 
 const MethodChannel _channel =
-    MethodChannel('plugins.flutter.io/flutter_measure_formatter');
+    MethodChannel('flutter_measure_formatter');
 
 enum FlutterMeasureFormatterUnit {
   ASTRONOMICAL_UNIT,

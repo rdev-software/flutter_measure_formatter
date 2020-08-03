@@ -37,9 +37,9 @@ class _MyAppState extends State<MyApp> {
   Future<void> loadData() async {
     try {
       _formattingResult =
-      await FlutterMeasureFormatter.formatLength(_selectedUnit, 5);
+      await FlutterMeasureFormatter().formatLength(_selectedUnit, 5);
       _conversionResult =
-      await FlutterMeasureFormatter.convertLength(_selectedUnit, 5);
+      await FlutterMeasureFormatter().convertLength(_selectedUnit, 5);
     } on PlatformException {
       _conversionResult = "<unknown>";
       _formattingResult = "5m";

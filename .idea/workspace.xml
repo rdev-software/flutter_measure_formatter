@@ -23,317 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24510083-afdc-413b-9eb4-568277ce5abf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/.packages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/android/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/android/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/android/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/android/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/android/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/android/libs/UnitOf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/android/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/android/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/android/src/main/kotlin/software/rdev/flutter_measure_formatter/FlutterMeasureFormatterPlugin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/.flutter-plugins-dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/.metadata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/android/settings_aar.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Flutter/.last_build_id" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Flutter/Flutter.podspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Podfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/AppDelegate.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/lib/main.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/example/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/flutter_measure_formatter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/ios/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/ios/Assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/ios/Classes/FlutterMeasureFormatterPlugin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/ios/Classes/FlutterMeasureFormatterPlugin.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/ios/Classes/SwiftFlutterMeasureFormatterPlugin.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/ios/flutter_measure_formatter.podspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/lib/flutter_measure_formatter.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_platform_interface/.packages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_platform_interface/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_platform_interface/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_platform_interface/lib/flutter_measure_formatter_platform_interface.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_platform_interface/lib/method_channel_flutter_measure_formatter.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_platform_interface/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_web/.flutter-plugins" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_web/.flutter-plugins-dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_web/.packages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_web/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_web/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_web/ios/Flutter/Generated.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_web/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_web/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_web/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_web/ios/flutter_measure_formatter_web.podspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_web/lib/flutter_measure_formatter_web.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/flutter_measure_formatter_web/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/.idea/runConfigurations/example_lib_main_dart.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/.metadata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/android/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/android/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/android/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/android/libs/UnitOf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/android/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/android/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/android/src/main/kotlin/software/rdev/flutter_measure_formatter/FlutterMeasureFormatterPlugin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/.metadata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/app/src/main/kotlin/software/rdev/flutter_measure_formatter_example/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/android/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Podfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/AppDelegate.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/lib/main.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/test/widget_test.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/web/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/web/icons/Icon-192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/web/icons/Icon-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/example/web/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/flutter_measure_formatter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/ios/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/ios/Assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/ios/Classes/FlutterMeasureFormatterPlugin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/ios/Classes/FlutterMeasureFormatterPlugin.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/ios/Classes/SwiftFlutterMeasureFormatterPlugin.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/ios/flutter_measure_formatter.podspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/lib/flutter_measure_formatter.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/lib/flutter_measure_formatter_platform_interface.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/lib/flutter_measure_formatter_web.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/lib/method_channel_flutter_measure_formatter.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/flutter_measure_formatter/test/flutter_measure_formatter_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flutter_measure_formatter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter_measure_formatter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/quantities.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/.dart_tool/package_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/.packages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/android/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/android/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/android/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/android/libs/UnitOf.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/android/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/android/src/main/kotlin/software/rdev/flutter_measure_formatter/FlutterMeasureFormatterPlugin.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/.flutter-plugins-dependencies" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/android/settings_aar.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Flutter/.last_build_id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Flutter/Debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Flutter/Flutter.podspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Flutter/Release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Podfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/AppDelegate.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/lib/main.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/example/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/flutter_measure_formatter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/ios/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/ios/Assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/ios/Classes/FlutterMeasureFormatterPlugin.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/ios/Classes/FlutterMeasureFormatterPlugin.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/ios/Classes/SwiftFlutterMeasureFormatterPlugin.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/ios/flutter_measure_formatter.podspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/lib/flutter_measure_formatter.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_platform_interface/.dart_tool/package_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_platform_interface/.packages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_platform_interface/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_platform_interface/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_platform_interface/lib/flutter_measure_formatter_platform_interface.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_platform_interface/lib/method_channel_flutter_measure_formatter.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_platform_interface/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/.dart_tool/package_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/.flutter-plugins" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/.flutter-plugins-dependencies" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/.packages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/ios/Flutter/Generated.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/ios/Flutter/flutter_export_environment.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/ios/flutter_measure_formatter_web.podspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/lib/flutter_measure_formatter_web.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_measure_formatter_web/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_measure_formatter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_measure_formatter.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_measure_formatter_platform_interface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_measure_formatter_platform_interface.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_measure_formatter_web.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_measure_formatter_web.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/method_channel_flutter_measure_formatter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/method_channel_flutter_measure_formatter.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,11 +79,17 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/flutter_measure_formatter/android/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/web" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/example/assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test/flutter_measure_formatter/android/libs" />
       <recent name="$PROJECT_DIR$/test/flutter_measure_formatter/lib" />
@@ -391,7 +98,7 @@
       <recent name="$PROJECT_DIR$/flutter_measure_formatter_platform_interface" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.main.dart (1)">
+  <component name="RunManager" selected="Flutter.main.dart">
     <configuration name="main.dart (1)" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/flutter_measure_formatter/example/lib/main.dart" />
       <method v="2" />
@@ -419,6 +126,10 @@
       <updated>1571393103838</updated>
       <workItem from="1596327179716" duration="4185000" />
       <workItem from="1596336025718" duration="4381000" />
+      <workItem from="1596348213500" duration="717000" />
+      <workItem from="1596349186780" duration="802000" />
+      <workItem from="1596350008417" duration="12741000" />
+      <workItem from="1596404508852" duration="2000" />
     </task>
     <servers />
   </component>
@@ -450,10 +161,11 @@
     </state>
     <state x="1524" y="486" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1311@0.25.2560.1311" timestamp="1596273445815" />
     <state x="1524" y="489" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1319@0.25.2560.1319" timestamp="1596339386960" />
-    <state x="1329" y="357" key="#com.intellij.ide.util.MemberChooser" timestamp="1596328754350">
+    <state x="1329" y="357" key="#com.intellij.ide.util.MemberChooser" timestamp="1596363335001">
       <screen x="0" y="25" width="2560" height="1314" />
     </state>
-    <state x="1329" y="357" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1314@0.25.2560.1314" timestamp="1596328754350" />
+    <state x="1329" y="357" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1314@0.25.2560.1314" timestamp="1596363335001" />
+    <state x="1329" y="358" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1319@0.25.2560.1319" timestamp="1596353578038" />
     <state x="1254" y="443" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1596330001094">
       <screen x="0" y="25" width="2560" height="1317" />
     </state>
@@ -466,42 +178,85 @@
       <screen x="0" y="25" width="2560" height="1311" />
     </state>
     <state x="1658" y="431" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.2560.1311@0.25.2560.1311" timestamp="1596273536319" />
-    <state width="1821" height="334" key="GridCell.Tab.0.bottom" timestamp="1596341963981">
-      <screen x="0" y="25" width="2560" height="1322" />
+    <state width="563" height="466" key="DebuggerActiveHint" timestamp="1596354371351">
+      <screen x="0" y="25" width="2560" height="1319" />
     </state>
-    <state width="1821" height="334" key="GridCell.Tab.0.bottom/0.25.2560.1317@0.25.2560.1317" timestamp="1596333705530" />
-    <state width="1821" height="334" key="GridCell.Tab.0.bottom/0.25.2560.1319@0.25.2560.1319" timestamp="1596339527707" />
+    <state width="563" height="466" key="DebuggerActiveHint/0.25.2560.1319@0.25.2560.1319" timestamp="1596354371351" />
+    <state width="1821" height="411" key="GridCell.Tab.0.bottom" timestamp="1596395400557">
+      <screen x="0" y="25" width="2560" height="1311" />
+    </state>
+    <state width="1821" height="411" key="GridCell.Tab.0.bottom/0.25.2560.1311@0.25.2560.1311" timestamp="1596395400557" />
+    <state width="1821" height="334" key="GridCell.Tab.0.bottom/0.25.2560.1314@0.25.2560.1314" timestamp="1596363631557" />
+    <state width="1821" height="334" key="GridCell.Tab.0.bottom/0.25.2560.1317@0.25.2560.1317" timestamp="1596361201246" />
+    <state width="1821" height="334" key="GridCell.Tab.0.bottom/0.25.2560.1319@0.25.2560.1319" timestamp="1596358676347" />
     <state width="1821" height="334" key="GridCell.Tab.0.bottom/0.25.2560.1322@0.25.2560.1322" timestamp="1596341963981" />
-    <state width="1821" height="334" key="GridCell.Tab.0.center" timestamp="1596341963980">
-      <screen x="0" y="25" width="2560" height="1322" />
+    <state width="1821" height="411" key="GridCell.Tab.0.center" timestamp="1596395400556">
+      <screen x="0" y="25" width="2560" height="1311" />
     </state>
-    <state width="1821" height="334" key="GridCell.Tab.0.center/0.25.2560.1317@0.25.2560.1317" timestamp="1596333705529" />
-    <state width="1821" height="334" key="GridCell.Tab.0.center/0.25.2560.1319@0.25.2560.1319" timestamp="1596339527706" />
+    <state width="1821" height="411" key="GridCell.Tab.0.center/0.25.2560.1311@0.25.2560.1311" timestamp="1596395400556" />
+    <state width="1821" height="334" key="GridCell.Tab.0.center/0.25.2560.1314@0.25.2560.1314" timestamp="1596363631556" />
+    <state width="1821" height="334" key="GridCell.Tab.0.center/0.25.2560.1317@0.25.2560.1317" timestamp="1596361201245" />
+    <state width="1821" height="334" key="GridCell.Tab.0.center/0.25.2560.1319@0.25.2560.1319" timestamp="1596358676346" />
     <state width="1821" height="334" key="GridCell.Tab.0.center/0.25.2560.1322@0.25.2560.1322" timestamp="1596341963980" />
-    <state width="1821" height="334" key="GridCell.Tab.0.left" timestamp="1596341963979">
-      <screen x="0" y="25" width="2560" height="1322" />
+    <state width="1821" height="411" key="GridCell.Tab.0.left" timestamp="1596395400556">
+      <screen x="0" y="25" width="2560" height="1311" />
     </state>
-    <state width="1821" height="334" key="GridCell.Tab.0.left/0.25.2560.1317@0.25.2560.1317" timestamp="1596333705529" />
-    <state width="1821" height="334" key="GridCell.Tab.0.left/0.25.2560.1319@0.25.2560.1319" timestamp="1596339527706" />
+    <state width="1821" height="411" key="GridCell.Tab.0.left/0.25.2560.1311@0.25.2560.1311" timestamp="1596395400556" />
+    <state width="1821" height="334" key="GridCell.Tab.0.left/0.25.2560.1314@0.25.2560.1314" timestamp="1596363631552" />
+    <state width="1821" height="334" key="GridCell.Tab.0.left/0.25.2560.1317@0.25.2560.1317" timestamp="1596361201245" />
+    <state width="1821" height="334" key="GridCell.Tab.0.left/0.25.2560.1319@0.25.2560.1319" timestamp="1596358676345" />
     <state width="1821" height="334" key="GridCell.Tab.0.left/0.25.2560.1322@0.25.2560.1322" timestamp="1596341963979" />
-    <state width="1821" height="334" key="GridCell.Tab.0.right" timestamp="1596341963980">
-      <screen x="0" y="25" width="2560" height="1322" />
+    <state width="1821" height="411" key="GridCell.Tab.0.right" timestamp="1596395400556">
+      <screen x="0" y="25" width="2560" height="1311" />
     </state>
-    <state width="1821" height="334" key="GridCell.Tab.0.right/0.25.2560.1317@0.25.2560.1317" timestamp="1596333705529" />
-    <state width="1821" height="334" key="GridCell.Tab.0.right/0.25.2560.1319@0.25.2560.1319" timestamp="1596339527707" />
+    <state width="1821" height="411" key="GridCell.Tab.0.right/0.25.2560.1311@0.25.2560.1311" timestamp="1596395400556" />
+    <state width="1821" height="334" key="GridCell.Tab.0.right/0.25.2560.1314@0.25.2560.1314" timestamp="1596363631556" />
+    <state width="1821" height="334" key="GridCell.Tab.0.right/0.25.2560.1317@0.25.2560.1317" timestamp="1596361201246" />
+    <state width="1821" height="334" key="GridCell.Tab.0.right/0.25.2560.1319@0.25.2560.1319" timestamp="1596358676346" />
     <state width="1821" height="334" key="GridCell.Tab.0.right/0.25.2560.1322@0.25.2560.1322" timestamp="1596341963980" />
     <state x="789" y="319" key="SettingsEditor" timestamp="1596340064045">
       <screen x="0" y="25" width="2560" height="1319" />
     </state>
     <state x="789" y="318" key="SettingsEditor/0.25.2560.1314@0.25.2560.1314" timestamp="1596328029106" />
     <state x="789" y="319" key="SettingsEditor/0.25.2560.1319@0.25.2560.1319" timestamp="1596340064045" />
-    <state x="1218" y="269" width="838" height="735" key="find.popup" timestamp="1596333701334">
+    <state x="985" y="370" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596353207999">
       <screen x="0" y="25" width="2560" height="1317" />
     </state>
+    <state x="985" y="370" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.2560.1317@0.25.2560.1317" timestamp="1596353207999" />
+    <state x="1218" y="269" width="838" height="737" key="find.popup" timestamp="1596353174975">
+      <screen x="0" y="25" width="2560" height="1319" />
+    </state>
     <state x="1218" y="269" width="838" height="735" key="find.popup/0.25.2560.1317@0.25.2560.1317" timestamp="1596333701334" />
+    <state x="1218" y="269" width="838" height="737" key="find.popup/0.25.2560.1319@0.25.2560.1319" timestamp="1596353174975" />
     <state x="922" y="256" key="new project wizard" timestamp="1596340075729">
       <screen x="0" y="25" width="2560" height="1319" />
     </state>
     <state x="922" y="256" key="new project wizard/0.25.2560.1319@0.25.2560.1319" timestamp="1596340075729" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/flutter_measure_formatter_platform_interface.dart</url>
+          <line>32</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/flutter_measure_formatter_platform_interface.dart</url>
+          <line>38</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/method_channel_flutter_measure_formatter.dart</url>
+          <line>34</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/method_channel_flutter_measure_formatter.dart</url>
+          <line>43</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

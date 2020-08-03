@@ -14,6 +14,7 @@ dependencies:
     sdk: flutter
   meta: ^1.2.2
   plugin_platform_interface: ^1.0.2
+  js: any
 
 dev_dependencies:
   flutter_test:

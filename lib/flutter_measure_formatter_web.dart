@@ -6,6 +6,7 @@ import 'dart:async';
 // ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html;
 
+import 'package:flutter_measure_formatter/quantities.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:meta/meta.dart';
 
@@ -17,10 +18,11 @@ class FlutterMeasureFormatterWeb extends MeasureFormatterPlatform {
   html.Window _window;
 
   /// A constructor that allows tests to override the window object used by the plugin.
-  FlutterMeasureFormatterWeb({@visibleForTesting html.Window window})
-      : _window = window ?? html.window;
+  FlutterMeasureFormatterWeb({@visibleForTesting html.Window window}) {
+    _window = window ?? html.window;
+  }
 
-  /// Registers this class as the default instance of [UrlLauncherPlatform].
+  /// Registers this class as the default instance of [MeasureFormatterPlatform].
   static void registerWith(Registrar registrar) {
     MeasureFormatterPlatform.instance = FlutterMeasureFormatterWeb();
   }
@@ -28,12 +30,15 @@ class FlutterMeasureFormatterWeb extends MeasureFormatterPlatform {
   @override
   Future<String> convertLength(
       FlutterMeasureFormatterUnit unit, double value) async {
-    throw UnimplementedError('convertLength() has not been implemented.');
+    var qty = Quantities("5.17 ft");
+    return qty.format("cm");
+   // return Quantities.getKinds().join(",");
   }
 
   @override
   Future<String> formatLength(
       FlutterMeasureFormatterUnit unit, double value) async {
-    throw UnimplementedError('formatLength() has not been implemented.');
+    var qty = Quantities("1m");
+    return qty.kind();
   }
 }

@@ -28,13 +28,13 @@ abstract class MeasureFormatterPlatform extends PlatformInterface {
   }
 
   /// Returns converted [value] to string value based on selected [unit] based on your regional settings.
-  static Future<String> convertLength(
+  Future<String> convertLength(
       FlutterMeasureFormatterUnit unit, double value) async {
     throw UnimplementedError('convertLength() has not been implemented.');
   }
 
   /// Returns formatted [value] as string based on selected [unit].
-  static Future<String> formatLength(
+  Future<String> formatLength(
       FlutterMeasureFormatterUnit unit, double value) async {
     throw UnimplementedError('formatLength() has not been implemented.');
   }
