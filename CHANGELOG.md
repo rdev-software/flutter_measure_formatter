@@ -1,3 +1,6 @@
+## 0.0.5
+* Update meta dependency
+
 ## 0.0.4
 * Simple web support implementation
 
