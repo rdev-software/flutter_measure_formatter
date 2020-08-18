@@ -1,3 +1,6 @@
+## 0.0.6
+* Fix passing unit to string
+
 ## 0.0.5
 * Update meta dependency
 

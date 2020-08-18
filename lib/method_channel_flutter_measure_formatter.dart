@@ -34,7 +34,7 @@ class MethodChannelFlutterMeasureFormatter extends MeasureFormatterPlatform {
       FlutterMeasureFormatterUnit unit, double value) async {
     return _channel.invokeMethod<String>(
       'convertLength',
-      <String, Object>{'unit': unit, 'value': value},
+      <String, Object>{'unit': unit.toString(), 'value': value},
     );
   }
 
@@ -43,7 +43,7 @@ class MethodChannelFlutterMeasureFormatter extends MeasureFormatterPlatform {
       FlutterMeasureFormatterUnit unit, double value) async {
     return _channel.invokeMethod<String>(
       'formatLength',
-      <String, Object>{'unit': unit, 'value': value},
+      <String, Object>{'unit': unit.toString(), 'value': value},
     );
   }
 }
