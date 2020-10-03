@@ -1,3 +1,6 @@
+## 0.0.7
+* Work on embedding v2
+
 ## 0.0.6
 * Fix passing unit to string
 
