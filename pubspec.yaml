@@ -1,6 +1,6 @@
 name: flutter_measure_formatter
 description: Plugin to format and convert measure units. This plugin is supported on iOS, Android & Web.
-version: 0.0.6
+version: 0.0.7
 homepage: https://github.com/rdev-software/flutter_measure_formatter
 
 environment:
@@ -13,7 +13,7 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   meta: ^1.1.8
-  plugin_platform_interface: ^1.0.2
+  plugin_platform_interface: ^1.0.3
   js: ^0.6.2
 
 dev_dependencies:

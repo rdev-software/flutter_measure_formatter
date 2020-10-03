@@ -204,7 +204,6 @@ public class FlutterMeasureFormatterPlugin: FlutterPlugin, MethodCallHandler, Ac
   }
 
   override fun onAttachedToActivity(binding: ActivityPluginBinding) {
-    TODO("Not yet implemented")
     activity = binding.activity;
   }
 
