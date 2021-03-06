@@ -36,6 +36,9 @@ public class FlutterMeasureFormatterPlugin: FlutterPlugin, MethodCallHandler, Ac
     channel.setMethodCallHandler(this);
   }
 
+  override fun onDetachedFromEngine(@NonNull binding: FlutterPlugin.FlutterPluginBinding) {
+    channel.setMethodCallHandler(null)
+  }
 
   @SuppressLint("DefaultLocale")
   fun Locale.isMetric(): Boolean {
@@ -191,9 +194,6 @@ public class FlutterMeasureFormatterPlugin: FlutterPlugin, MethodCallHandler, Ac
     }
   }
 
-  override fun onDetachedFromEngine(@NonNull binding: FlutterPlugin.FlutterPluginBinding) {
-    channel.setMethodCallHandler(null)
-  }
 
   override fun onDetachedFromActivity() {
     activity = null;

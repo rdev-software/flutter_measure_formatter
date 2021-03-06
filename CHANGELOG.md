@@ -1,3 +1,6 @@
+## 0.0.8
+* Refactoring
+
 ## 0.0.7
 * Work on embedding v2
 
