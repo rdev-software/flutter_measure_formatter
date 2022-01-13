@@ -10,7 +10,7 @@ class FlutterMeasureFormatter extends MeasureFormatterPlatform {
       const MethodChannel('flutter_measure_formatter');
 
   @override
-  Future<String> convertLength(
+  Future<String?> convertLength(
       FlutterMeasureFormatterUnit unit, double value) async {
     return MeasureFormatterPlatform.instance.convertLength(unit, value);
 //    final String formattedValue = await _channel.invokeMethod(
@@ -19,7 +19,7 @@ class FlutterMeasureFormatter extends MeasureFormatterPlatform {
   }
 
   @override
-  Future<String> formatLength(
+  Future<String?> formatLength(
       FlutterMeasureFormatterUnit unit, double value) async {
     return MeasureFormatterPlatform.instance.formatLength(unit, value);
 //    final String formattedValue = await _channel.invokeMethod(

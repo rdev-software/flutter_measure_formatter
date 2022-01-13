@@ -14,8 +14,8 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   FlutterMeasureFormatterUnit _selectedUnit = FlutterMeasureFormatterUnit.METER;
-  String _conversionResult = "<unknown>";
-  String _formattingResult = "5m";
+  String? _conversionResult;
+  String? _formattingResult;
 
   @override
   void initState() {
@@ -37,12 +37,10 @@ class _MyAppState extends State<MyApp> {
   Future<void> loadData() async {
     try {
       _formattingResult =
-      await FlutterMeasureFormatter().formatLength(_selectedUnit, 5);
+          await FlutterMeasureFormatter().formatLength(_selectedUnit, 500);
       _conversionResult =
-      await FlutterMeasureFormatter().convertLength(_selectedUnit, 5);
+          await FlutterMeasureFormatter().convertLength(_selectedUnit, 500);
     } on PlatformException {
-      _conversionResult = "<unknown>";
-      _formattingResult = "5m";
       _selectedUnit = FlutterMeasureFormatterUnit.METER;
     }
 
@@ -68,12 +66,12 @@ class _MyAppState extends State<MyApp> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       Text(
-                        _formattingResult,
+                        _formattingResult ?? '',
                         style: TextStyle(color: Colors.white),
                       ),
                       Icon(Icons.keyboard_arrow_right, color: Colors.white),
                       Text(
-                        _conversionResult,
+                        _conversionResult ?? '',
                         style: TextStyle(color: Colors.white),
                       )
                     ],

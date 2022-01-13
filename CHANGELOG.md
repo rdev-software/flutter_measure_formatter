@@ -1,3 +1,7 @@
+## 0.1.0
+* remove quantitiesJS it didn't work correctly anyways
+* upgraded to null-safety and flutter 2.8
+
 ## 0.0.8
 * Refactoring
 

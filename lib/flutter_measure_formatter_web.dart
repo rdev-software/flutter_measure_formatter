@@ -6,7 +6,6 @@ import 'dart:async';
 // ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html;
 
-import 'package:flutter_measure_formatter/quantities.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:meta/meta.dart';
 
@@ -15,10 +14,10 @@ import 'method_channel_flutter_measure_formatter.dart';
 
 /// A web implementation of the FlutterMeasureFormatter plugin.
 class FlutterMeasureFormatterWeb extends MeasureFormatterPlatform {
-  html.Window _window;
+  late html.Window _window;
 
   /// A constructor that allows tests to override the window object used by the plugin.
-  FlutterMeasureFormatterWeb({@visibleForTesting html.Window window}) {
+  FlutterMeasureFormatterWeb({@visibleForTesting html.Window? window}) {
     _window = window ?? html.window;
   }
 
@@ -27,11 +26,10 @@ class FlutterMeasureFormatterWeb extends MeasureFormatterPlatform {
     MeasureFormatterPlatform.instance = FlutterMeasureFormatterWeb();
   }
 
-  String getUnitString(FlutterMeasureFormatterUnit unit){
-    switch (unit){
-
+  String getUnitString(FlutterMeasureFormatterUnit unit) {
+    switch (unit) {
       case FlutterMeasureFormatterUnit.ASTRONOMICAL_UNIT:
-       return "au";
+        return "au";
       case FlutterMeasureFormatterUnit.CENTIMETER:
         return "cm";
       case FlutterMeasureFormatterUnit.DECIMETER:
@@ -45,15 +43,15 @@ class FlutterMeasureFormatterWeb extends MeasureFormatterPlatform {
       case FlutterMeasureFormatterUnit.INCH:
         return "in";
       case FlutterMeasureFormatterUnit.LIGHT_YEAR:
-       return "ly";
+        return "ly";
       case FlutterMeasureFormatterUnit.KILOMETER:
         return "km";
       case FlutterMeasureFormatterUnit.METER:
         return "m";
       case FlutterMeasureFormatterUnit.MICROMETER:
-       return "μm";
+        return "μm";
       case FlutterMeasureFormatterUnit.MILE:
-       return "mi";
+        return "mi";
       case FlutterMeasureFormatterUnit.MILE_SCANDINAVIAN:
         return "mil";
       case FlutterMeasureFormatterUnit.MILLIMETER:
@@ -69,19 +67,17 @@ class FlutterMeasureFormatterWeb extends MeasureFormatterPlatform {
       case FlutterMeasureFormatterUnit.YARD:
         return "yd";
     }
-    return "";
-  }
-  @override
-  Future<String> convertLength(
-      FlutterMeasureFormatterUnit unit, double value) async {
-    var qty = Quantities.scalar(value, getUnitString(unit));
-    return qty.format();
   }
 
   @override
-  Future<String> formatLength(
+  Future<String?> convertLength(
       FlutterMeasureFormatterUnit unit, double value) async {
-    var qty = Quantities.scalar(value, getUnitString(unit));
-    return qty.format();
+    return '$value ${getUnitString(unit)}';
+  }
+
+  @override
+  Future<String?> formatLength(
+      FlutterMeasureFormatterUnit unit, double value) async {
+    return '$value ${getUnitString(unit)}';
   }
 }

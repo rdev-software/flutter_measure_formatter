@@ -1,15 +1,33 @@
 # flutter_measure_formatter
 
-A new flutter plugin project.
+Provides a way to format length measurements in a human readable way. 
+Based on currently selected region and scale.
 
-## Getting Started
+## Usage
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+There are two main methods: convertLength and formatLength.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### convertLength()
 
+Returns string with value and unit based on current region and potentially value scale. For example 5000 metres becomes 3.11mi.
+
+### formatLength()
+
+Returns string with value and unit. For example 500 kilometres becomes 500km
+
+```dart
+  _formattingResult =
+          await FlutterMeasureFormatter().formatLength(_selectedUnit, 500);
+      _conversionResult =
+          await FlutterMeasureFormatter().convertLength(_selectedUnit, 500);
+```
+
+### Unit Definition
+
+Available units are defined in `FlutterMeasureFormatterUnit`.
+
+
+### Limitations
+
+- Android scaling is very limited and hardcoded for now.
+- There is no web implementation, looking for viable solutions.

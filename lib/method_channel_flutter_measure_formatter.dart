@@ -2,8 +2,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 import 'flutter_measure_formatter_platform_interface.dart';
 
-const MethodChannel _channel =
-    MethodChannel('flutter_measure_formatter');
+const MethodChannel _channel = MethodChannel('flutter_measure_formatter');
 
 enum FlutterMeasureFormatterUnit {
   ASTRONOMICAL_UNIT,
@@ -30,7 +29,7 @@ enum FlutterMeasureFormatterUnit {
 /// An implementation of [MeasureFormatterPlatform] that uses method channels.
 class MethodChannelFlutterMeasureFormatter extends MeasureFormatterPlatform {
   @override
-  Future<String> convertLength(
+  Future<String?> convertLength(
       FlutterMeasureFormatterUnit unit, double value) async {
     return _channel.invokeMethod<String>(
       'convertLength',
@@ -39,7 +38,7 @@ class MethodChannelFlutterMeasureFormatter extends MeasureFormatterPlatform {
   }
 
   @override
-  Future<String> formatLength(
+  Future<String?> formatLength(
       FlutterMeasureFormatterUnit unit, double value) async {
     return _channel.invokeMethod<String>(
       'formatLength',

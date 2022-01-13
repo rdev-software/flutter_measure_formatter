@@ -15,7 +15,8 @@ abstract class MeasureFormatterPlatform extends PlatformInterface {
 
   static final Object _token = Object();
 
-  static MeasureFormatterPlatform _instance = MethodChannelFlutterMeasureFormatter();
+  static MeasureFormatterPlatform _instance =
+      MethodChannelFlutterMeasureFormatter();
 
   /// The default instance of [MeasureFormatterPlatform] to use.
   ///
@@ -28,13 +29,13 @@ abstract class MeasureFormatterPlatform extends PlatformInterface {
   }
 
   /// Returns converted [value] to string value based on selected [unit] based on your regional settings.
-  Future<String> convertLength(
+  Future<String?> convertLength(
       FlutterMeasureFormatterUnit unit, double value) async {
     throw UnimplementedError('convertLength() has not been implemented.');
   }
 
   /// Returns formatted [value] as string based on selected [unit].
-  Future<String> formatLength(
+  Future<String?> formatLength(
       FlutterMeasureFormatterUnit unit, double value) async {
     throw UnimplementedError('formatLength() has not been implemented.');
   }
